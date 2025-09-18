@@ -61,3 +61,10 @@ def delete_review(request, id, review_id):
     review = get_object_or_404(Review, id=review_id, user=request.user)
     review.delete()
     return redirect('movies.show', id=id)
+
+@login_required
+def like_review(request, review_id):
+    review = get_object_or_404(Review, id=review_id)
+    review.likes += 1
+    review.save()
+    return redirect('movies.show', id=review.movie.id)

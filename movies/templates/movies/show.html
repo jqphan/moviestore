@@ -10,20 +10,20 @@
         <p><b>Description:</b> {{ template_data.movie.description }}</p>
         <p><b>Price:</b> ${{ template_data.movie.price }}</p>
         <p class="card-text">
-          <form method="post" action="{% url 'cart.add' id=template_data.movie.id %}">
-            <div class="row">
-              {% csrf_token %}
-              <div class="col-auto">
-                <div class="input-group col-auto">
-                  <div class="input-group-text">Quantity</div>
-                  <input type="number" min="1" max="10" class="form-control quantity-input" name="quantity" value="1">
-                </div>
-              </div>
-              <div class="col-auto">
-                <button class="btn bg-dark text-white" type="submit">Add to cart</button>
+        <form method="post" action="{% url 'cart.add' id=template_data.movie.id %}">
+          <div class="row">
+            {% csrf_token %}
+            <div class="col-auto">
+              <div class="input-group col-auto">
+                <div class="input-group-text">Quantity</div>
+                <input type="number" min="1" max="10" class="form-control quantity-input" name="quantity" value="1">
               </div>
             </div>
-          </form>
+            <div class="col-auto">
+              <button class="btn bg-dark text-white" type="submit">Add to cart</button>
+            </div>
+          </div>
+        </form>
         </p>
 
         <h2>Reviews</h2>
@@ -38,6 +38,14 @@
               {{ review.date }}
             </h6>
             <p class="card-text">{{ review.comment }}</p>
+
+            <form method="POST" action="{% url 'like_review' review_id=review.id %}">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-outline-success">
+                👍 Like ({{ review.likes }})
+              </button>
+            </form>
+
             {% if user.is_authenticated and user == review.user %}
             <a class="btn btn-primary"
               href="{% url 'movies.edit_review' id=template_data.movie.id review_id=review.id %}">

@@ -1,0 +1,951 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-09-18T05:13:02.777Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "1 - The Avengers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-09-18T05:13:34.293Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "2 - Avengers: Infinity War",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-09-18T05:14:01.762Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "3 - Avengers: Endgame",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-09-18T05:14:33.911Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "4 - Barbie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-09-18T05:14:53.009Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "5 - Bee Movie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-09-18T05:15:10.305Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "6 - Big Hero 6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-09-18T05:15:27.449Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "7 - Despicable Me",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-09-18T05:15:47.244Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "8 - Hunger Games",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-09-18T05:16:14.780Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "9 - Inside Out",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-09-18T05:16:38.218Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "10 - KPop Demon Hunters",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-09-18T05:16:57.957Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "11 - Kung Fu Panda",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-09-18T05:17:15.127Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "12 - Lego Movie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-09-18T05:17:54.664Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "13 - Lion King",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-09-18T05:18:14.671Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "14 - Mario Movie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-09-18T05:18:38.281Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "15 - Minecraft Movie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-09-18T05:19:03.738Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "16 - Monsters, Inc.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-09-18T05:19:28.543Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "17 - Mulan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-09-18T05:19:47.721Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "18 - Puss in Boots: The Last Wish",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-09-18T05:20:23.981Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "19 - Spider-Man: No Way Home",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-09-18T05:20:41.712Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "20 - Spider-Man: Into the Spider-Verse",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-09-18T05:21:01.900Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "21 - Superman",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add movie",
+    "content_type": 7,
+    "codename": "add_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change movie",
+    "content_type": 7,
+    "codename": "change_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete movie",
+    "content_type": 7,
+    "codename": "delete_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view movie",
+    "content_type": 7,
+    "codename": "view_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add review",
+    "content_type": 8,
+    "codename": "add_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change review",
+    "content_type": 8,
+    "codename": "change_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete review",
+    "content_type": 8,
+    "codename": "delete_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view review",
+    "content_type": 8,
+    "codename": "view_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 9,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 9,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 9,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 9,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add item",
+    "content_type": 10,
+    "codename": "add_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change item",
+    "content_type": 10,
+    "codename": "change_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete item",
+    "content_type": 10,
+    "codename": "delete_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view item",
+    "content_type": 10,
+    "codename": "view_item"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$07NdWVmjbICtNKRtbHc9UM$FL/SYo9bHQLN1YWfrgXHSHQJZScxvaEEb0sDlyjZpfs=",
+    "last_login": "2025-09-18T05:03:50.383Z",
+    "is_superuser": true,
+    "username": "jacquelyn",
+    "first_name": "",
+    "last_name": "",
+    "email": "jacquelynphan108@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-09-18T05:03:36.479Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "movies",
+    "model": "movie"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "movies",
+    "model": "review"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "cart",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "cart",
+    "model": "item"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pju1fhl2u048ub42fp1ncxw8gjdat7ec",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-xD9Kes5grddrHEC2FCcV4u4QKQW0b2bei0XY1hq3QUucMzszyU6_WwJ8UNtBvkO7dY69rcuc-K7wgw5-7Zmel8P9O6gw6rf2hFLIAsomFwwpb5y3VqrsnUaLyYNwZbJTENmpEKQugYpJWnvUxiRk7w_Gvzcv:1uz6oA:IIoRGMWtrhQrZUNFl9aUC4chquWgdCuZQEmPLHlPfBI",
+    "expire_date": "2025-10-02T05:03:50.389Z"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1,
+  "fields": {
+    "name": "The Avengers",
+    "price": 10,
+    "description": "Earth's mightiest heroes join forces to stop Loki and his alien army threatening Earth.",
+    "image": "movie_images/avengers_5jzJfK6.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 2,
+  "fields": {
+    "name": "Avengers: Infinity War",
+    "price": 15,
+    "description": "The Avengers and their allies must stop Thanos before he collects all six Infinity Stones and his snap wipes out half the universe.",
+    "image": "movie_images/avengers_infinity_jfbl9GO.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 3,
+  "fields": {
+    "name": "Avengers: Endgame",
+    "price": 20,
+    "description": "After the devastation wrought by Thanos, the remaining Avengers work to undo his actions and restore order, leading to a climactic final battle.",
+    "image": "movie_images/avengers_endgame_7wHbmKf.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 4,
+  "fields": {
+    "name": "Barbie",
+    "price": 15,
+    "description": "A spirited look at the iconic fashion doll, who leaves Barbieland to explore the real world, challenging expectations and discovering what it means to be �real.�",
+    "image": "movie_images/barbie_39ZIkEL.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 5,
+  "fields": {
+    "name": "Bee Movie",
+    "price": 5,
+    "description": "Barry B. Benson, a bee who just graduated from college, sues the human race for exploiting bees after learning about honey production, leading to comedic consequences.",
+    "image": "movie_images/bee_movie_A6sWh3t.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 6,
+  "fields": {
+    "name": "Big Hero 6",
+    "price": 10,
+    "description": "A young robotics prodigy, Hiro, forms a superhero team with his inflatable robot Baymax and friends to uncover a criminal plot in a futuristic city.",
+    "image": "movie_images/big_hero_6.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 7,
+  "fields": {
+    "name": "Despicable Me",
+    "price": 5,
+    "description": "Gru, a super-villain wannabe, adopts three little girls as part of his plan to steal the moon, but ends up caring for them instead.",
+    "image": "movie_images/despicable_me_CrPb05L.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 8,
+  "fields": {
+    "name": "Hunger Games",
+    "price": 10,
+    "description": "In a dystopian future, teenagers Katniss Everdeen and Peeta Mellark are forced to compete in a televised fight to the death for the amusement of the Capitol.",
+    "image": "movie_images/hunger_games_pDm0haZ.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 9,
+  "fields": {
+    "name": "Inside Out",
+    "price": 10,
+    "description": "Inside the mind of a young girl named Riley, emotions Joy, Sadness, Anger, Fear, and Disgust navigate life�s changes after a big move.",
+    "image": "movie_images/inside_out_cTQG2Gs.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 10,
+  "fields": {
+    "name": "KPop Demon Hunters",
+    "price": 10,
+    "description": "A K-pop girl group leads a double life as demon hunters; they face off against a rival boy band secretly composed of demons.",
+    "image": "movie_images/kpop_demon_ceIms9r.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 11,
+  "fields": {
+    "name": "Kung Fu Panda",
+    "price": 10,
+    "description": "Po, a clumsy and lovable panda, is chosen as the Dragon Warrior to fulfill an ancient prophecy, and must train to face an evil snow leopard.",
+    "image": "movie_images/kung_fu_panda_ShArCXW.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 12,
+  "fields": {
+    "name": "Lego Movie",
+    "price": 10,
+    "description": "An ordinary Lego figure mistakenly thought to be the �Special� saves the world from an evil tyrant with help from quirky allies.",
+    "image": "movie_images/Lego-Movie-Chris-Pratt-Elizabeth-Banks_MeOhlPU.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 13,
+  "fields": {
+    "name": "Lion King",
+    "price": 10,
+    "description": "Disney classic: Simba, a lion cub, must accept his role as the rightful king of the Pride Lands after the tragic death of his father, Mufasa.",
+    "image": "movie_images/lion_king_geh91D1.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 14,
+  "fields": {
+    "name": "Mario Movie",
+    "price": 15,
+    "description": "Animated adventure of Mario as he navigates the Mushroom Kingdom to rescue Princess Peach and stop Bowser�s evil plans.",
+    "image": "movie_images/mario_movie_7H9h8bF.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 15,
+  "fields": {
+    "name": "Minecraft Movie",
+    "price": 15,
+    "description": "A story set in the blocky Minecraft world where a hero rises to thwart a dark force threatening all of Minecraft.",
+    "image": "movie_images/minecraft_movie_mi4iG8L.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 16,
+  "fields": {
+    "name": "Monsters, Inc.",
+    "price": 10,
+    "description": "At Monsters, Inc., monsters scare children to generate power for their city, until one little girl enters the monster world and disrupts everything.",
+    "image": "movie_images/monsters_inc_DGq6GkE.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 17,
+  "fields": {
+    "name": "Mulan",
+    "price": 10,
+    "description": "A young Chinese woman disguises herself as a man to take her father�s place in the army and defend her homeland from invaders.",
+    "image": "movie_images/mulan_jpg_TzcUrQK.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 18,
+  "fields": {
+    "name": "Puss in Boots: The Last Wish",
+    "price": 20,
+    "description": "The swashbuckling cat Puss in Boots discovers he has only one of his nine lives left and goes on an adventure to restore them.",
+    "image": "movie_images/puss_boots_6vAwP5R.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 19,
+  "fields": {
+    "name": "Spider-Man: No Way Home",
+    "price": 20,
+    "description": "Following revelations about his identity, Peter Parker seeks help from Doctor Strange; things go horribly wrong, bringing villains from other universes.",
+    "image": "movie_images/spider_nowayhome_WDyH9yg.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 20,
+  "fields": {
+    "name": "Spider-Man: Into the Spider-Verse",
+    "price": 15,
+    "description": "Teen Miles Morales becomes Spider-Man and meets other Spider-Heroes from alternate dimensions to help defeat a threat that could collapse all reality.",
+    "image": "movie_images/spider_verse_cDfxz3D.jpg"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 21,
+  "fields": {
+    "name": "Superman",
+    "price": 10,
+    "description": "Classic origin: Clark Kent from Krypton becomes Superman and must defend Earth/Metropolis from villains, embracing his powers and responsibility.",
+    "image": "movie_images/superman_H8RYCUA.jpg"
+  }
+}
+]
