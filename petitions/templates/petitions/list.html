@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Petitions</h1>
+  <p><a href="{% url 'petitions:create' %}">Create a petition</a></p>
+  <ul>
+    {% for p in petitions %}
+      <li>
+        <a href="{% url 'petitions:detail' p.pk %}">{{ p.title }}</a>
+        — YES: {{ p.yes_count_anno|default:p.yes_count }}
+      </li>
+    {% empty %}
+      <li>No petitions yet.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

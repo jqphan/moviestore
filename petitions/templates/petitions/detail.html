@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>{{ petition.title }}</h1>
+  <p>{{ petition.description }}</p>
+  <p>Created by: {{ petition.created_by }} on {{ petition.created_at }}</p>
+  <h3>YES count: {{ petition.yes_count }}</h3>
+
+  {% if user.is_authenticated %}
+    <form method="post" action="{% url 'petitions:vote_yes' petition.pk %}">
+      {% csrf_token %}
+      <button type="submit">Vote YES</button>
+    </form>
+  {% else %}
+    <p><a href="{% url 'login' %}?next={% url 'petitions:detail' petition.pk %}">Log in</a> to vote.</p>
+  {% endif %}
+{% endblock %}
